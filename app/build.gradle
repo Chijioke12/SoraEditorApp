@@ -29,8 +29,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
-    // Sora Editor
-    implementation platform("io.github.rosemoe:editor-bom:0.24.4")
-    implementation "io.github.rosemoe:editor"
+    // Sora Editor (Direct dependencies instead of BOM)
+    implementation "io.github.rosemoe:editor:0.24.4"
     implementation "io.github.rosemoe:language-java:0.24.4"
 }
